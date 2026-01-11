@@ -1,0 +1,73 @@
+#Exercise 1
+print("--- Task 1: GREETING ---")
+name = input("Write your name: ")
+print(f"Hello, {name}!")
+
+#Exercise 2
+import math
+print("--- TASK 2: CIRCLE CIRCUMFERENCE ---")
+radius = float(input("Enter the radius of the circle: "))
+circumference = 2 * math.pi * radius
+print(f"The circumference of the circle is: {circumference:.2f}")
+
+#Exercise 3
+print("--- TASK 3: RECTANGLE ---")
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+
+perimeter = 2 * (length + width)
+area = length * width
+
+print(f"The perimeter is: {perimeter}")
+print(f"The area is: {area}")
+
+#Exercise 4
+print("--- TASK 4: INTEGER OPERATIONS ---")
+
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+num3 = int(input("Enter 3rd number: "))
+
+total_sum = num1 + num2 + num3
+product = num1 * num2 * num3
+average = total_sum / 3
+
+print(f"Sum: {total_sum}")
+print(f"Product: {product}")
+print(f"Average: {average}")
+
+#Exercise 4
+print("--- TASK 5: MEDIEVAL UNIT CONVERTER ---")
+
+talents = float(input("Enter talents: "))
+pounds = float(input("Enter pounds: "))
+lots = float(input("Enter lots: "))
+
+pounds_in_lots = pounds * 32
+talents_in_lots = talents * 20 * 32
+total_lots = lots + pounds_in_lots + talents_in_lots
+
+total_grams = total_lots * 13.3
+
+
+kilograms = int(total_grams // 1000)
+grams = total_grams - (kilograms * 1000)
+
+print("The weight in modern units:")
+print(f"{kilograms} kilograms and {grams:.2f} grams.")
+
+#Exercise 5
+import random
+
+print("--- TASK 6: RANDOM COMBINATION LOCK ---")
+
+d1 = random.randint(0, 9)
+d2 = random.randint(0, 9)
+d3 = random.randint(0, 9)
+print(f"3-digit code: {d1}{d2}{d3}")
+
+n1 = random.randint(1, 6)
+n2 = random.randint(1, 6)
+n3 = random.randint(1, 6)
+n4 = random.randint(1, 6)
+print(f"4-digit code: {n1}{n2}{n3}{n4}")
