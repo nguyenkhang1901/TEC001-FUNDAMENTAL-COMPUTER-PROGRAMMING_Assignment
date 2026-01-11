@@ -36,7 +36,7 @@ print(f"Sum: {total_sum}")
 print(f"Product: {product}")
 print(f"Average: {average}")
 
-#Exercise 4
+#Exercise 5
 print("--- TASK 5: MEDIEVAL UNIT CONVERTER ---")
 
 talents = float(input("Enter talents: "))
