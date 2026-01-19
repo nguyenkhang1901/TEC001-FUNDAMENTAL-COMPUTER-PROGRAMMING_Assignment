@@ -36,7 +36,7 @@ print(f"Sum: {total_sum}")
 print(f"Product: {product}")
 print(f"Average: {average}")
 
-#Exercise 4
+#Exercise 5
 print("--- TASK 5: MEDIEVAL UNIT CONVERTER ---")
 
 talents = float(input("Enter talents: "))
@@ -56,7 +56,7 @@ grams = total_grams - (kilograms * 1000)
 print("The weight in modern units:")
 print(f"{kilograms} kilograms and {grams:.2f} grams.")
 
-#Exercise 5
+#Exercise 6
 import random
 
 print("--- TASK 6: RANDOM COMBINATION LOCK ---")
