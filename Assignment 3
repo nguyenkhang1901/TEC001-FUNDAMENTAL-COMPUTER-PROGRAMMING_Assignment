@@ -41,7 +41,6 @@ import random
 target_number = random.randint(1, 10)
 
 while True:
-    # 1. Nhập dữ liệu dưới dạng chuỗi (string) trước
     user_input = input("guess a number (or type end to stop the game): ")
 
     if user_input == "end":
@@ -60,7 +59,6 @@ while True:
             print("Too high")
 
     except ValueError:
-        # Nếu nhập cái gì đó không phải số (và cũng không phải "end")
         print("Please enter a valid integer.")
 #Ex 5:
 attempts = 0
@@ -105,4 +103,4 @@ def create_acronym(phrase):
         acronym += word[0].upper()
     return acronym
 
-print(create_acronym(words)) # Output: UFO
+print(create_acronym(words))
