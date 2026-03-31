@@ -96,7 +96,7 @@ if __name__ == "__main__":
     for i in range(1, 11):
         car_list.append(Car(f"ABC-{i}", random.randint(150, 200)))
     
-    grand_derby = Race("F1 Grand Prix", 8000, car_list)
+    grand_derby = Race("Grand Demolition Derby", 8000, car_list)
     
     hours_count = 0
     while not grand_derby.race_finished():
